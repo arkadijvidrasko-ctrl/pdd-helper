@@ -79,5 +79,6 @@ dependencies {
     androidTestImplementation(libs.androidx.test.ext.junit)
     androidTestImplementation(libs.androidx.test.ext.junit.ktx)
     androidTestImplementation(libs.androidx.test.rules)
-    androidTestImplementation(libs.espresso.core)
+    androidTestImplementation(libs.espresso.core) 
+    implementation("com.google.code.gson:gson:2.10.1")
 }
